@@ -17,7 +17,7 @@ $(document).ready(function(){
   
   // retreives new JSON quote object from external source
   let getRandomQuote = function() {
-      fetch('http:quotes.stormconsultancy.co.uk/random.json')
+      fetch('http://quotes.stormconsultancy.co.uk/random.json')
         .then(function(response) { 
         // Convert to JSON
         return response.json();
